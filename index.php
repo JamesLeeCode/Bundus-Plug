@@ -300,7 +300,7 @@
                 </p>
                 <?php if(!empty($_SESSION['username'])){?>
                   <a
-                      href="property-single.php?id=<?php echo  $row['service_id']; ?>"
+                      href="property-single2.php?id=<?php echo  $row['service_id']; ?>"
                     class="btn btn-primary py-2 px-3"
                     >See details</a>
               <?php }?>

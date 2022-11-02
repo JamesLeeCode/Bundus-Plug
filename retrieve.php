@@ -159,6 +159,7 @@
 
 
     if(isset($_REQUEST['register'])){
+      $pic = "user.png";
       if(isset($_FILES["pic"]) && $_FILES["pic"]["error"] == 0){
             $allowed = array("jpg" => "image/jpg", "jpeg" => "image/jpeg", "gif" => "image/gif", "png" => "image/png");
             $filename = $_FILES["pic"]["name"];

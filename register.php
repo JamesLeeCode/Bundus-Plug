@@ -257,7 +257,7 @@
                   <div class="col-6 mb-3">
                 <label for="user-password" >Profile Picture
                         </label>
-                     <input   required type="file" id="pic"   name="pic"  />
+                     <input   type="file" id="pic"   name="pic"  />
                   </div>
 
                 <div class="col-12">
